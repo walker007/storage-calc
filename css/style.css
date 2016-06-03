@@ -200,6 +200,12 @@ ul {
   margin-left: auto;
   text-align: center;
   display: inline-block;
+  margin: 15px 0px;
+}
+#calc #files ul li i {
+  font-size: 45px;
+  padding: 5px;
+  display: block;
 }
 
 /*# sourceMappingURL=style.css.map */
