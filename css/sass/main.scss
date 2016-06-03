@@ -1,0 +1,75 @@
+@import 'reset.scss';
+
+// FLATICON ARCHIVES
+@font-face {
+	font-family: "Flaticon";
+	src: url("../font/Flaticon.eot");
+	src: url("../font/Flaticon.eot?#iefix") format("embedded-opentype"),
+	url("../font/Flaticon.woff") format("woff"),
+	url("../font/Flaticon.ttf") format("truetype"),
+	url("../font/Flaticon.svg#Flaticon") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	@font-face {
+		font-family: "Flaticon";
+		src: url("../font/Flaticon.svg#Flaticon") format("svg");
+	}
+}
+
+[class^="flaticon-"]:before, 
+[class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, 
+[class*=" flaticon-"]:after {   
+	font-family: Flaticon;
+	font-style: normal;
+}
+
+.flaticon-bars:before { content: "\f100"; }
+.flaticon-high-volume:before { content: "\f101"; }
+.flaticon-microphone:before { content: "\f102"; }
+.flaticon-musical-note:before { content: "\f103"; }
+.flaticon-photo-camera:before { content: "\f104"; }
+.flaticon-picture:before { content: "\f105"; }
+.flaticon-play-button:before { content: "\f106"; }
+.flaticon-play-button-1:before { content: "\f107"; }
+
+#calc {
+	width: 50%;
+	text-align: left;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 15%;
+
+	#calculate {
+		width: 100%;
+
+		form {
+			width: 100%;
+			height: auto;
+
+			input {
+				display: block;
+				background-color: rgba(0,0,0,0.3);
+				margin: 15px 0px;
+				width: 100%;
+				border: none;
+				padding: 15px;
+				color: #323232;
+				font-weight: bold;
+			}
+		} 
+	}
+
+	#files {
+		ul li {
+			width: calc(90% / 2);
+			margin-right: auto;
+			margin-left: auto;
+			text-align: center;
+			display: inline-block;
+		}
+	}
+}
