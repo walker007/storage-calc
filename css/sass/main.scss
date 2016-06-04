@@ -46,20 +46,15 @@
 	#calculate {
 		width: 100%;
 
-		form {
+		input, button {
+			display: block;
+			background-color: rgba(0,0,0,0.3);
+			margin: 15px 0px;
 			width: 100%;
-			height: auto;
-
-			input {
-				display: block;
-				background-color: rgba(0,0,0,0.3);
-				margin: 15px 0px;
-				width: 100%;
-				border: none;
-				padding: 15px;
-				color: #323232;
-				font-weight: bold;
-			}
+			border: none;
+			padding: 15px;
+			color: #323232;
+			font-weight: bold;
 		} 
 	}
 
